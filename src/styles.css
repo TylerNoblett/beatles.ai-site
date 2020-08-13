@@ -1,0 +1,129 @@
+body {
+    /* color: white; */
+    background-color: #F4F8FE;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+                 "Helvetica Neue", sans-serif;
+  }
+
+#paper {
+  background-color: white;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+#new-song{
+  height: 2rem;
+  width: 10rem;
+  animation: rainbow 10s ease infinite;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  background: linear-gradient(124deg, #F27D84, #F5B764);
+  margin:0 auto;
+  display:block;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#new-song:hover {
+  /* webkit-transform: scale(1.025,1.025); */
+  -ms-transform: scale(1.025,1.025);
+  -o-transform: scale(1.025,1.025);
+  transform: scale(1.025,1.025);
+}
+  /* Some basic CSS to make the MIDI controls in abcjs presentable. */
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  h1 {
+    /* padding-top: 0.25rem; */
+    font-size: 6rem;
+    margin-block-end: 0.25rem;
+    margin-block-start: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .pad {
+    padding: 0 0.25rem;
+  }
+
+  .desc {
+    padding: 0 15rem;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: -0.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .pad {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .desc {
+    padding: 0 1rem;
+  }
+}
+
+
+
+.layout {
+  max-width: 1080px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+@media (max-width : 768px) {
+  .layout {
+    max-width: 1080px;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+main {
+  max-width: 770px;
+  margin: auto auto;
+}
+.feedback {
+  height: 600px;
+  font-family: Arial, "sans-serif";
+}
+.highlight {
+  fill: #0a9ecc;
+}
+.abcjs-cursor {
+  stroke: red;
+}
+.audio-error {
+  color: red;
+  border: 2px solid red;
+  padding: 10px;
+}
+.click-explanation {
+  color: red;
+  font-style: italic;
+}
+.beat {
+  font-weight: bold;
+}
+.label {
+  color: #888888;
+}
