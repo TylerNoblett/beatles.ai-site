@@ -16,7 +16,7 @@ body {
 
 
 #new-song{
-  height: 2rem;
+  height: 2.5rem;
   width: 10rem;
   animation: rainbow 10s ease infinite;
   border: none;
