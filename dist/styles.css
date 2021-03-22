@@ -17,6 +17,11 @@ body {
 .yellow {
   background-color: #fffcf4;
   border: .01em solid  #f9e1a3; 
+  margin-bottom: 1rem;
+}
+
+.smaller-text {
+  font-size: 0.75rem;
 }
 
 
