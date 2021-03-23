@@ -92,6 +92,10 @@ body {
   .desc {
     padding: 0 1rem;
   }
+
+  .margin {
+    padding: 0.25rem;
+  }
 }
 
 
