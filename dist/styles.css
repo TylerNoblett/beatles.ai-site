@@ -67,6 +67,10 @@ body {
   .desc {
     padding: 0 15rem;
   }
+
+  .margin {
+    margin: 0 15rem;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
