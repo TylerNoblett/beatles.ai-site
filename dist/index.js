@@ -108,7 +108,7 @@ createSong();
 
 const newSong = document.getElementById("new-song");
 newSong.onclick = () => {
-	position < 3 ? position++ : position = 0;
+	position < 4 ? position++ : position = 0;
 	abc = abcArr[position];
 	createSong()
 }
